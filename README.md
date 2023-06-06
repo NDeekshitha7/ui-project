@@ -1,1 +1,1 @@
-[![ERD Diagram](/public/images/ERD.png)]
+[![ERD Diagram](/main/ui-project/ERD.png)]
