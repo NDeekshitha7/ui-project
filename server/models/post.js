@@ -22,7 +22,7 @@ async function register(userid, postcontent) {
 }
 
 async function login(userid, postcontent) {
-    const user = await getUser(userid);
+  const user = await getUser(userid);
     if(!user) throw Error('User not found');
     if(user.postcontent != postcontent) throw Error('Wrong Password');
 
